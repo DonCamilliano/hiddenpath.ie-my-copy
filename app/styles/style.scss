@@ -8,16 +8,18 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 1000px;
+    //height: 1000px;
     .headings {
-        margin-top: 270px;
+        //margin-top: 270px;
         color: #ffffff;
         a {
             color: #ffffff;
-            font-size: 20px;
+            font-size: 10px;
+           // font-size: 20px;
         }
         h1 {
-            font-size: 75px;
+            //font-size: 75px;
+            font-size: 30px;
         }
         .btn {
             background-color: transparent;
@@ -31,6 +33,10 @@ body {
             }
         }
     }
+}
+
+@media (min-width: 768px) {
+    
 }
 
 .navigation {
@@ -51,7 +57,7 @@ body {
             a {
                 background-color: transparent;
                 color: #ffffff;
-                border: none;
+                border-bottom: 3px solid transparent;
                 &:hover {
                     background-color: transparent;
                     color: #ffffff;
@@ -85,10 +91,11 @@ body {
         }
     }
     main {
+         margin-bottom: 50px;
         p {
             font-family: Helvetica;
             font-size: 25px;
-            margin-bottom: 50px;
+           
         }
     }
     .btn {
@@ -111,6 +118,7 @@ body {
         font-family: Helvetica;
         font-size: 45px;
         font-style: italic;
+        margin-top: 50px;
     }
     .author {
         font-size: 25px;
@@ -157,3 +165,4 @@ footer {
         }
     }
 }
+
