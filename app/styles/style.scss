@@ -1,0 +1,168 @@
+body {
+    font-family: 'Oswald',Helvetica,Arial,sans-serif;
+}
+
+.head {
+    background: url('/images/web-design-dublin-1.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+    .headings {
+        //margin-top: 270px;
+        color: #ffffff;
+        margin-bottom: 80px;
+        a {
+            color: #ffffff;
+            font-size: 20px;
+        }
+        h1 {
+            //font-size: 75px;
+            font-size: 30px;
+        }
+        .btn {
+            background-color: transparent;
+            border-radius: 0px;
+            border: 2px solid #ffffff;
+            margin: 5px 20px;
+            padding: 10px 35px;
+            &:hover {
+                background-color: #ffffff;
+                color: #000000;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    
+}
+
+.navigation {
+    background-color: transparent;
+    border: none;
+    margin-top: 25px;
+    .navbar-header {
+        a {
+            color: #ffffff;
+        }
+    }
+}
+
+.navbar-default {
+    .navbar-nav { 
+        li { 
+            padding: 0 20px;
+            a {
+                background-color: transparent;
+                color: #ffffff;
+                border-bottom: 3px solid transparent;
+                &:hover {
+                    background-color: transparent;
+                    color: #ffffff;
+                    border-bottom: 3px solid #ffffff;
+                    border-radius: 0px; 
+                }
+            }
+        }
+    }
+}
+
+.section1 {
+    header {
+        a {
+            padding: 80px 25px;
+            border: 1px solid #E5E5E5;
+            p {
+                color: #000000;
+                font-size: 15px;
+                .title {
+                    font-weight: bold;
+                }
+            }
+            &:hover {
+                text-decoration: none;
+                background-color: #333;
+                p {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    main {
+         margin-bottom: 50px;
+        p {
+            font-family: Helvetica;
+            font-size: 25px;
+           
+        }
+    }
+    .btn {
+        color: #000000;
+        background-color: transparent;
+        border-radius: 0px;
+        border: 2px solid #000000;
+        margin: 5px 20px;
+        padding: 10px 35px;
+         &:hover {
+                background-color: #000000;
+                color: #ffffff;
+            }
+    }
+} 
+
+.section2 {
+    background: #F1F1F1;
+    .italic {
+        font-family: Helvetica;
+        font-size: 45px;
+        font-style: italic;
+        margin-top: 50px;
+    }
+    .author {
+        font-size: 25px;
+        margin: 30px 0;
+    }
+    .join {
+        background: url('/images/brand-bootcamp.jpg') no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 440px;
+        color: #ffffff;
+        margin-top: 50px;
+        .movement {
+            margin-top: 140px;
+            .brand {
+                font-family: Helvetica;
+                font-size: 20px;
+            }
+            .bootcamp {
+                font-size: 50px;
+            }
+            .btn {
+                color: #fff;
+                background-color: #B40A1E;
+                border-color: #9c091a;
+                border-radius: 0px;
+                padding: 15px 50px;
+                &:hover {
+                    background-color: #9c091a;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    .foot {
+        margin: 30px 0;
+        .company {
+                color: #666;
+                margin-top: 30px;
+        }
+    }
+}
+
