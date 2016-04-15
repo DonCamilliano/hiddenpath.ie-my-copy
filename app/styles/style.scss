@@ -88,6 +88,7 @@ body {
         p {
             font-family: Helvetica;
             font-size: 25px;
+            margin-bottom: 50px;
         }
     }
     .btn {
@@ -105,7 +106,54 @@ body {
 } 
 
 .section2 {
+    background: #F1F1F1;
     .italic {
+        font-family: Helvetica;
+        font-size: 45px;
         font-style: italic;
+    }
+    .author {
+        font-size: 25px;
+        margin: 30px 0;
+    }
+    .join {
+        background: url('/images/brand-bootcamp.jpg') no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 440px;
+        color: #ffffff;
+        margin-top: 50px;
+        .movement {
+            margin-top: 140px;
+            .brand {
+                font-family: Helvetica;
+                font-size: 20px;
+            }
+            .bootcamp {
+                font-size: 50px;
+            }
+            .btn {
+                color: #fff;
+                background-color: #B40A1E;
+                border-color: #9c091a;
+                border-radius: 0px;
+                padding: 15px 50px;
+                &:hover {
+                    background-color: #9c091a;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    .foot {
+        margin: 30px 0;
+        .company {
+                color: #666;
+                margin-top: 30px;
+        }
     }
 }
