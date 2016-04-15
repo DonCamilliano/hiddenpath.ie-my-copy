@@ -1,6 +1,7 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "style.scss";
 // endbower
 
 .browsehappy {
@@ -16,11 +17,3 @@ body {
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 
-.head {
-    background: url('/images/web-design-dublin-1.jpg') no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 800px;
-}

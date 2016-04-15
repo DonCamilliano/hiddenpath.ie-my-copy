@@ -1,0 +1,105 @@
+body {
+    font-family: 'Oswald',Helvetica,Arial,sans-serif;
+}
+
+.head {
+    background: url('/images/web-design-dublin-1.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+    .headings {
+        margin-top: 270px;
+        color: #ffffff;
+        a {
+            color: #ffffff;
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 75px;
+        }
+        .btn {
+            background-color: transparent;
+            border-radius: 0px;
+            border: 2px solid #ffffff;
+            margin: 5px 20px;
+            padding: 10px 35px;
+            &:hover {
+                background-color: #ffffff;
+                color: #000000;
+            }
+        }
+    }
+}
+
+.navigation {
+    background-color: transparent;
+    border: none;
+    margin-top: 25px;
+    .navbar-header {
+        a {
+            color: #ffffff;
+        }
+    }
+}
+
+.navbar-default {
+    .navbar-nav { 
+        li { 
+            padding: 0 20px;
+            a {
+                background-color: transparent;
+                color: #ffffff;
+                border: none;
+                &:hover {
+                    background-color: transparent;
+                    color: #ffffff;
+                    border-bottom: 3px solid #ffffff;
+                    border-radius: 0px; 
+                }
+            }
+        }
+    }
+}
+
+.section1 {
+    header {
+        a {
+            padding: 80px 25px;
+            border: 1px solid #E5E5E5;
+            p {
+                color: #000000;
+                font-size: 15px;
+                .title {
+                    font-weight: bold;
+                }
+            }
+            &:hover {
+                text-decoration: none;
+                background-color: #333;
+                p {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    main {
+        p {
+            font-family: Helvetica;
+            font-size: 25px;
+        }
+    }
+    .btn {
+        color: #000000;
+        background-color: transparent;
+        border-radius: 0px;
+        border: 2px solid #000000;
+        margin: 5px 20px;
+        padding: 10px 35px;
+         &:hover {
+                background-color: #000000;
+                color: #ffffff;
+            }
+    }
+} 
